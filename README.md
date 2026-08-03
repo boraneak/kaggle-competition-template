@@ -4,17 +4,28 @@ Reusable template for Kaggle competition projects.
 
 ## Project Structure
 
-data/
-├── raw/ # Original competition data
-└── processed/ # Cleaned feature data
+```text
+kaggle-competition-template/
 
-notebooks/ # Exploration and experiments
+├── data/
+│   ├── raw/              # Original competition data
+│   └── processed/        # Cleaned data and features
 
-src/ # Reusable Python code
+├── notebooks/            # EDA and experiment notebooks
+│   ├── 01_eda.ipynb
+│   ├── 02_baseline.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_model_training.ipynb
+│   └── 05_submission.ipynb
 
-models/ # Saved model files
+├── models/               # Saved trained models
 
-submissions/ # Kaggle submission files
+├── submissions/          # Kaggle submission files
+
+├── README.md
+
+└── requirements.txt
+```
 
 
 ## Competition Workflow
