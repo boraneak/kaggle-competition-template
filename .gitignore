@@ -1,6 +1,8 @@
 # Data files
 data/raw/*
 data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # Keep folder structure
 !data/raw/.gitkeep
@@ -9,6 +11,8 @@ data/processed/*
 # Trained models
 models/*
 !models/.gitkeep
+submissions/*
+!submissions/.gitkeep
 
 # Python
 __pycache__/
@@ -18,9 +22,16 @@ __pycache__/
 # Virtual environments
 .venv/
 venv/
+.env
+.python-version
 
 # Jupyter
 .ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
 
 # OS
 .DS_Store
